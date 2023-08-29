@@ -6,6 +6,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+p {
+    line-height: 1.5;
+}
+
 /* NAVIGATION BAR */
 nav {
     height: 80px;
@@ -125,4 +129,45 @@ button:active {
 
 .header__img--wrapper {
     padding: 20px;
+}
+
+.container {
+    padding: 56px 0;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*
+    HIGHLIGHTS
+*/
+
+.highlight__wrapper {
+    display: flex;
+}
+
+.highlight {
+    padding: 0 24px;
+    width: calc(100% / 3);
+    text-align: center;
+}
+
+.highlight__subtitle {
+    margin-bottom: 10px;
+}
+
+.highlight__para {
+    max-width: 280px;
+}
+
+.fas {
+    padding: 28px;
+    border: 1px solid #7342d65d;
+    border-radius: 4px;
+    color: #7342d6;
+    margin-bottom: 12px;
+    font-size: 30px;
 }
