@@ -19,6 +19,10 @@ p {
     line-height: 1.5;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*  NAVIGATION BAR  */
 nav {
     height: 100%;
@@ -90,6 +94,7 @@ header {
     max-width: 720px;
     height: 100%;
     margin: 0 auto;
+    padding-top: 60px;
 }
 
 .header__description {
@@ -210,6 +215,7 @@ button {
 
 .books {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .book {
@@ -255,7 +261,50 @@ button {
     color: #bfbfbf;
 }
 
-/*  LATEST BOOKS  */
-.latest--books {
+/*  EXPLORE  */
+.explore__container {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 56px;
+}
+
+#explore {
+    background-color: rgba(115, 66, 214, 0.1);
+}
+
+/*  FOOTER  */
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+}
+
+.footer__logo {
+    filter: grayscale(1) invert(1); /*grayscale(1) turns it to dark, and invert(1) changes it to light*/
+    display: flex;
+}
+
+.footer__links {
+    margin: 20px 0 24px 0;
+}
+
+.footer__link {
+    padding: 0 0 14px 14px;
+    color: white;
+}
+
+.copyright {
+    color: white;
+}
+
+footer {
+    background-color: #242424;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }

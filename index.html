@@ -18,6 +18,25 @@
           <li class="nav__link nav__link--primary">Books</li>
         </ul>
       </div>
+      <button class="btn__menu">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="menu__backdrop">
+        <button class="btn__menu btn__menu--close">
+          <i class="fas fa-times"></i>
+        </button>
+        <ul>
+          <li class="menu__list">
+            <a href="#" class="menu__link">Home</a>
+          </li>
+          <li class="menu__list">
+            <a href="#features" class="menu__link">Books</a>
+          </li>
+          <li class="menu__list">
+            <a href="" class="menu__link no-cursor">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <header>
       <div class="header__container">
@@ -144,7 +163,7 @@
         <div class="row">
           <h2>Latest <span class="text--purple">Books</span></h2>
           <div class="books">
-            <div class="latest--book">
+            <div class="book">
               <figure class="book__img">
                 <img src="./assets/book-1.jpeg" alt="" class="book__img">
               </figure>
@@ -260,6 +279,26 @@
         </div>
       </div>
     </section>
+
+    <section id="explore">
+      <div class="explore__container">
+        <h2>Explore more <span class="text--purple">Books</span></h2>
+        <button class="btn">Browse Books</button>
+      </div>
+    </section>
   </main>
+
+  <footer>
+    <div class="footer__container">
+      <img src="./assets/Library.svg" alt="" class="logo footer__logo">
+      <ul class="footer__links">
+        <a href="#"><li class="footer__link">Home</li></a>
+        <a href="#highlights"><li class="footer__link">About</li></a>
+        <a href="#features"><li class="footer__link">Books</li></a>
+        <a href="" class="no-cursor"><li class="footer__link">Contact</li></a>
+      </ul>
+      <div class="copyright">Copyright © 2023 Library</div>
+    </div>
+  </footer>
 </body>
 </html>
