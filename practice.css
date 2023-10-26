@@ -1,84 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-/*
-    LANDING SECTION
-*/
-#landing {
-    background-color:  rgba(115, 66, 214, 0.1);;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 .text--purple {
     color: #7342d6;
 }
 
-/*
-    NAVIGATION BAR
-*/
-
-nav {
-    height: 80px;
+/*  NAVIGATION  */
+nav { /*sets the max height*/
+    height: 100%;
+    max-height: 80px;
     display: flex;
 }
 
-.nav__container {
+.nav__container { /*acts like the row and set the width*/
     width: 100%;
     max-width: 1200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 24px;
     margin: 0 auto;
+    padding: 0 24px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    max-height: 50vh;
 }
 
 .logo {
     width: 160px;
 }
 
-.nav__lists {
+.nav__links {
     display: flex;
+}
+
+.nav__link {
+    margin-left: 16px;
+    color: #7342d6;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px;
     list-style-type: none;
 }
 
-.nav__link--anchor {
-    text-decoration: none;
-    margin-left: 16px;
-    font-size: 20px;
-    color: #7342d6;
-    font-weight: bolder;
-    padding: 8px;
-}
-
-.nav__link--anchor:hover {
+.nav__link:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .nav__link--primary {
     border: 2px solid #7342d6;
-    border-radius: 4px;
+    border-radius: 5px
 }
 
 .nav__link--primary:hover {
     text-decoration: none;
 }
 
-/*
-    HEADER
-*/
-header {
+#landing {
+    background-color: rgba(115, 66, 214, 0.1);
+}
+
+/*  HEADER  */
+header { /*set the height*/
     height: calc(100vh - 80px);
 }
 
-.header__container {
+.header__container { /*set width*/
     width: 100%;
+    height: 100%;
     max-width: 720px;
     margin: 0 auto;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
 }
 
 .header__description {
@@ -100,14 +100,32 @@ h2 {
 }
 
 button {
-    padding: 12px 24px;
-    background-color: #7342d6;
-    color: #fff;
-    border-radius: 5px;
-    border: none;
     cursor: pointer;
 }
 
-button:active {
-    transform: translateY(1px);
+.btn {
+    padding: 12px 24px;
+    background-color: #7342d6;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.header__img--wrapper {
+    padding: 20px;
+}
+
+/*  HIGHLIGHTS  */
+.container {
+    padding: 56px;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.highlight__wrapper {
+    display: flex;
 }
