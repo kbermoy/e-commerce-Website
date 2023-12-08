@@ -6,6 +6,8 @@ As of 12/07/2023 -- I added another page which is the book.html, it gets a list 
 1. implement a real API in replace of the mockup API
 2. implement a add to chart function
 
+## Date Stamps of new commits:
+
 As of 10/26/2023: 
 -added a drop-menu for a responsive design.
 
