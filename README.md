@@ -1,6 +1,13 @@
 # e-commerce-Website
-The end goal of this project is to implement a full-stack web applications that follows a e-commerce web applications.
-As of 10/26/2023, there is a drop-menu for a responsive design.
+The end goal of this project is to implement a full-stack web application that follows a e-commerce web applications.
+As of 12/07/2023 -- I added another page which is the book.html, it gets a list of books that mocks an API, and use it to diplay onto the frontend. In this page, you have the ability to sort the list of books by either the highest price to the lowest price, vice versa, and sort by the ratings of each book.
+
+## Goals:
+1. implement a real API in replace of the mockup API
+2. implement a add to chart function
+
+As of 10/26/2023: 
+-added a drop-menu for a responsive design.
 
 As of 10/26/2023:
 -added the footer section
